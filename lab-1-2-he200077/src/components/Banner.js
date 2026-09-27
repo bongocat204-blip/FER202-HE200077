@@ -3,35 +3,98 @@ import banner1 from "./banner1.jpg";
 import banner2 from "./banner2.jpg";
 import banner3 from "./banner3.jpg";
 
-function UncontrolledExample() {
+function Banner() {
   return (
-    <Carousel>
+    <Carousel fade interval={3000}>
       <Carousel.Item>
-        <banner1 text="First slide" />
-        <Carousel.Caption>
-          <h3>FASHION COLLECTION 2026</h3>
-          <p>Discover the latest fashion trends for 2026</p>
-          <image src={banner1} />
+        <div style={{ position: "relative", height: "450px" }}>
+          <img
+            className="d-block w-100 h-100"
+            src={banner1}
+            alt="First slide"
+            style={{ objectFit: "cover" }}
+          />
+          {/* Lớp phủ tối màu giúp chữ hiển thị rõ ràng hơn */}
+          <div
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              backgroundColor: "rgba(0, 0, 0, 0.4)",
+            }}
+          />
+        </div>
+        <Carousel.Caption className="d-flex flex-column justify-content-center align-items-center pb-5">
+          <h3 className="fw-bold fs-2 text-uppercase text-white">
+            FASHION COLLECTION 2026
+          </h3>
+          <p className="fs-5 text-light">
+            Discover the latest fashion trends for 2026
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
+
       <Carousel.Item>
-        <banner2 text="Second slide" />
-        <Carousel.Caption>
-          <h3>SUMMER SALE UP TO 50%</h3>
-          <p>Enjoy special discount on selected products</p>
-          <image src={banner2} />
+        <div style={{ position: "relative", height: "450px" }}>
+          <img
+            className="d-block w-100 h-100"
+            src={banner2}
+            alt="Second slide"
+            style={{ objectFit: "cover" }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              backgroundColor: "rgba(0, 0, 0, 0.4)",
+            }}
+          />
+        </div>
+        <Carousel.Caption className="d-flex flex-column justify-content-center align-items-center pb-5">
+          <h3 className="fw-bold fs-2 text-uppercase text-white">
+            SUMMER SALE UP TO 50%
+          </h3>
+          <p className="fs-5 text-light">
+            Enjoy special discount on selected products
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
+
       <Carousel.Item>
-        <banner3 text="Third slide" />
-        <Carousel.Caption>
-          <h3>NEW ARRIVALS</h3>
-          <p>Explore our newest clothing collection</p>
-          <image src={banner3} />
+        <div style={{ position: "relative", height: "450px" }}>
+          <img
+            className="d-block w-100 h-100"
+            src={banner3}
+            alt="Third slide"
+            style={{ objectFit: "cover" }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              backgroundColor: "rgba(0, 0, 0, 0.4)",
+            }}
+          />
+        </div>
+        <Carousel.Caption className="d-flex flex-column justify-content-center align-items-center pb-5">
+          <h3 className="fw-bold fs-2 text-uppercase text-white">
+            NEW ARRIVALS
+          </h3>
+          <p className="fs-5 text-light">
+            Explore our newest clothing collection
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );
 }
 
-export default UncontrolledExample;
+export default Banner;

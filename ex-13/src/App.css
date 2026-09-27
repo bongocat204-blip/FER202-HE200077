@@ -1,0 +1,43 @@
+import React, { useState } from 'react';
+import UserPosts from './components/UserPosts';
+import CountdownTimer from './components/CountdownTimer';
+import WindowSize from './components/WindowSize';
+import ValidatedInput from './components/ValidatedInput';
+
+function App() {
+  const [userId, setUserId] = useState(1);
+
+  // Hàm validate ví dụ: Chuỗi phải có độ dài từ 5 ký tự trở lên
+  const validateMinLength = (val) => val.length >= 5;
+
+  return (
+    <div style={{ maxWidth: '800px', margin: '0 auto', fontFamily: 'Arial, sans-serif' }}>
+      <h1 style={{ textAlign: 'center' }}>Exercise 13: React Hook (useEffect)</h1>
+
+      {/* Bài 1 */}
+      <div style={{ textAlign: 'center', marginBottom: '10px' }}>
+        <label>Chọn User ID để xem danh sách bài viết: </label>
+        <select value={userId} onChange={(e) => setUserId(Number(e.target.value))}>
+          <option value={1}>User 1</option>
+          <option value={2}>User 2</option>
+          <option value={3}>User 3</option>
+        </select>
+      </div>
+      <UserPosts userId={userId} />
+
+      {/* Bài 2 */}
+      <CountdownTimer initialValue={10} />
+
+      {/* Bài 3 */}
+      <WindowSize />
+
+      {/* Bài 4 */}
+      <ValidatedInput 
+        validationFunction={validateMinLength} 
+        errorMessage="Văn bản phải có ít nhất 5 ký tự!" 
+      />
+    </div>
+  );
+}
+
+export default App;
