@@ -1,4 +1,6 @@
 import React from "react";
+import { CiStar } from "react-icons/ci";
+import { FaStar } from "react-icons/fa";
 
 export default function MovieItem({
   movie,
@@ -10,7 +12,7 @@ export default function MovieItem({
     <div className="movie-item">
       <div className="movie-main-info">
         <span className="movie-title">
-          {isFavorite ? "⭐" : "⭐"}
+          {isFavorite ? <FaStar /> : <CiStar />}
           {movie.title}
         </span>
         <span className="movie-genre">{movie.genre}</span>
