@@ -1,12 +1,7 @@
 import React from "react";
 import MovieItem from "./MovieItem";
 
-export default function MovieList({
-  movies,
-  favorites,
-  onToggleFavorite,
-  onSelectMovie,
-}) {
+export default function MovieList({ movies, favorites, onToggleFavorite }) {
   if (movies.length === 0) {
     return <p className="empty-message">Không tìm thấy phim phù hợp.</p>;
   }
@@ -19,7 +14,6 @@ export default function MovieList({
           movie={movie}
           isFavorite={favorites.includes(movie.id)}
           onToggleFavorite={onToggleFavorite}
-          onSelectMovie={onSelectMovie}
         />
       ))}
     </div>

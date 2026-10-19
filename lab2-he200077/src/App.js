@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import SearchBar from "./components/SearchBar";
 import GenreFilter from "./components/GenreFilter";
 import MovieList from "./components/MovieList";
 import MovieDetail from "./components/MovieDetail";
+import Pagination from "./components/Pagination"; // 👈 [THÊM MỚI]: Import Pagination
 import { useLocalStorage } from "./hooks/useLocalStorage";
 import { movies as initialMovies } from "./datas/movies";
 
@@ -13,7 +15,15 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedGenre, setSelectedGenre] = useState("all");
   const [sortBy, setSortBy] = useState("default");
-  const [selectedMovie, setSelectedMovie] = useState(null);
+
+  // ================= [THÊM MỚI]: State Phân trang =================
+  const [currentPage, setCurrentPage] = useState(1);
+  const MOVIES_PER_PAGE = 4; // Cấu hình 4 phim 1 trang
+
+  // ================= [THÊM MỚI]: Reset về trang 1 khi tìm kiếm / lọc =================
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchQuery, selectedGenre, sortBy]);
 
   // Thêm / Bỏ yêu thích
   const handleToggleFavorite = (id) => {
@@ -46,6 +56,16 @@ export default function App() {
     filteredMovies.sort((a, b) => a.title.localeCompare(b.title));
   }
 
+  // ================= [THÊM MỚI]: Logic cắt mảng phim cho trang hiện tại =================
+  const totalPages = Math.ceil(filteredMovies.length / MOVIES_PER_PAGE);
+  const indexOfLastMovie = currentPage * MOVIES_PER_PAGE;
+  const indexOfFirstMovie = indexOfLastMovie - MOVIES_PER_PAGE;
+  // Mảng 4 phim hiển thị trên màn hình hiện tại:
+  const currentMovies = filteredMovies.slice(
+    indexOfFirstMovie,
+    indexOfLastMovie,
+  );
+
   // Thống kê
   const totalCount = movies.length;
   const favoriteCount = favorites.length;
@@ -55,33 +75,51 @@ export default function App() {
     <div className="app-container">
       <Header />
 
-      <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+      <Routes>
+        {/* Trang danh sách chính (Route '/') */}
+        <Route
+          path="/"
+          element={
+            <>
+              <SearchBar
+                searchQuery={searchQuery}
+                setSearchQuery={setSearchQuery}
+              />
 
-      <GenreFilter
-        genres={genres}
-        selectedGenre={selectedGenre}
-        setSelectedGenre={setSelectedGenre}
-        sortBy={sortBy}
-        setSortBy={setSortBy}
-      />
+              <GenreFilter
+                genres={genres}
+                selectedGenre={selectedGenre}
+                setSelectedGenre={setSelectedGenre}
+                sortBy={sortBy}
+                setSortBy={setSortBy}
+              />
 
-      <div className="stats-bar">
-        <span>Tổng: {totalCount}</span> |{" "}
-        <span>Yêu thích: {favoriteCount}</span> |{" "}
-        <span>Đang hiển thị: {displayedCount}</span>
-      </div>
+              <div className="stats-bar">
+                <span>Tổng: {totalCount}</span> |{" "}
+                <span>Yêu thích: {favoriteCount}</span> |{" "}
+                <span>Đang hiển thị: {displayedCount}</span>
+              </div>
 
-      <MovieList
-        movies={filteredMovies}
-        favorites={favorites}
-        onToggleFavorite={handleToggleFavorite}
-        onSelectMovie={setSelectedMovie}
-      />
+              {/* [SỬA ĐỔI]: Truyền currentMovies (4 phim) thay vì filteredMovies */}
+              <MovieList
+                movies={currentMovies}
+                favorites={favorites}
+                onToggleFavorite={handleToggleFavorite}
+              />
 
-      <MovieDetail
-        movie={selectedMovie}
-        onClose={() => setSelectedMovie(null)}
-      />
+              {/* [THÊM MỚI]: Thêm Component Phân trang ở dưới danh sách phim */}
+              <Pagination
+                currentPage={currentPage}
+                totalPages={totalPages}
+                onPageChange={(page) => setCurrentPage(page)}
+              />
+            </>
+          }
+        />
+
+        {/* Trang chi tiết phim (Route '/detail/:id') */}
+        <Route path="/detail/:id" element={<MovieDetail />} />
+      </Routes>
     </div>
   );
 }

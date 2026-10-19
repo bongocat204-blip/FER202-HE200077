@@ -1,68 +1,156 @@
 export const movies = [
-    {
-        id: 1,
-        title: "Interstellar",
-        genre: "Sci-Fi",
-        year: 2014,
-        rating: 8.7,
-        director: "Christopher Nolan",
-        duration: 169,
-        description:
-            "A group of astronauts travels through space to search for a new home for humanity."
-    },
-    {
-        id: 2,
-        title: "Spirited Away",
-        genre: "Animation",
-        year: 2001,
-        rating: 8.6,
-        director: "Hayao Miyazaki",
-        duration: 125,
-        description:
-            "A young girl enters a mysterious world and tries to save her parents."
-    },
-    {
-        id: 3,
-        title: "The Dark Knight",
-        genre: "Action",
-        year: 2008,
-        rating: 9.0,
-        director: "Christopher Nolan",
-        duration: 152,
-        description:
-            "Batman faces a dangerous criminal who creates chaos in Gotham City."
-    },
-    {
-        id: 4,
-        title: "Parasite",
-        genre: "Drama",
-        year: 2019,
-        rating: 8.5,
-        director: "Bong Joon-ho",
-        duration: 132,
-        description:
-            "A poor family gradually becomes involved in the life of a wealthy family."
-    },
-    {
-        id: 5,
-        title: "The Grand Budapest Hotel",
-        genre: "Comedy",
-        year: 2014,
-        rating: 8.1,
-        director: "Wes Anderson",
-        duration: 100,
-        description:
-            "A series of unusual events takes place at a famous European hotel."
-    },
-    {
-        id: 6,
-        title: "Your Name",
-        genre: "Romance",
-        year: 2016,
-        rating: 8.4,
-        director: "Makoto Shinkai",
-        duration: 106,
-        description:
-            "Two young people mysteriously experience each other's lives."
-    }
+  {
+    id: 1,
+    title: "Interstellar",
+    genre: "Sci-Fi",
+    year: 2014,
+    rating: 8.7,
+    director: "Christopher Nolan",
+    duration: 169,
+    description:
+      "A group of astronauts travels through space to search for a new home for humanity.",
+  },
+  {
+    id: 2,
+    title: "Spirited Away",
+    genre: "Animation",
+    year: 2001,
+    rating: 8.6,
+    director: "Hayao Miyazaki",
+    duration: 125,
+    description:
+      "A young girl enters a mysterious world and tries to save her parents.",
+  },
+  {
+    id: 3,
+    title: "The Dark Knight",
+    genre: "Action",
+    year: 2008,
+    rating: 9.0,
+    director: "Christopher Nolan",
+    duration: 152,
+    description:
+      "Batman faces a dangerous criminal who creates chaos in Gotham City.",
+  },
+  {
+    id: 4,
+    title: "Parasite",
+    genre: "Drama",
+    year: 2019,
+    rating: 8.5,
+    director: "Bong Joon-ho",
+    duration: 132,
+    description:
+      "A poor family gradually becomes involved in the life of a wealthy family.",
+  },
+  {
+    id: 5,
+    title: "The Grand Budapest Hotel",
+    genre: "Comedy",
+    year: 2014,
+    rating: 8.1,
+    director: "Wes Anderson",
+    duration: 100,
+    description:
+      "A series of unusual events takes place at a famous European hotel.",
+  },
+  {
+    id: 6,
+    title: "Your Name",
+    genre: "Romance",
+    year: 2016,
+    rating: 8.4,
+    director: "Makoto Shinkai",
+    duration: 106,
+    description: "Two young people mysteriously experience each other's lives.",
+  },
+  // ================= THÊM MỚI 8 PHIM BÊN DƯỚI =================
+  {
+    id: 7,
+    title: "Inception",
+    genre: "Sci-Fi",
+    year: 2010,
+    rating: 8.8,
+    director: "Christopher Nolan",
+    duration: 148,
+    description:
+      "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea.",
+  },
+  {
+    id: 8,
+    title: "Oppenheimer",
+    genre: "Drama",
+    year: 2023,
+    rating: 8.9,
+    director: "Christopher Nolan",
+    duration: 180,
+    description:
+      "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
+  },
+  {
+    id: 9,
+    title: "Spider-Man: Into the Spider-Verse",
+    genre: "Animation",
+    year: 2018,
+    rating: 8.4,
+    director: "Bob Persichetti, Peter Ramsey",
+    duration: 117,
+    description:
+      "Teen Miles Morales becomes the Spider-Man of his universe and must join with five spider-powered individuals.",
+  },
+  {
+    id: 10,
+    title: "Avengers: Endgame",
+    genre: "Action",
+    year: 2019,
+    rating: 8.4,
+    director: "Anthony Russo, Joe Russo",
+    duration: 181,
+    description:
+      "After the devastating events of Infinity War, the universe is in ruins, and the Avengers assemble once more.",
+  },
+  {
+    id: 11,
+    title: "La La Land",
+    genre: "Romance",
+    year: 2016,
+    rating: 8.0,
+    director: "Damien Chazelle",
+    duration: 128,
+    description:
+      "While navigating their careers in Los Angeles, a pianist and an actress fall in love.",
+  },
+  {
+    id: 12,
+    title: "The Hangover",
+    genre: "Comedy",
+    year: 2009,
+    rating: 7.7,
+    director: "Todd Phillips",
+    duration: 100,
+    description:
+      "Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the groom missing.",
+  },
+  {
+    id: 13,
+    title: "Dune: Part Two",
+    genre: "Sci-Fi",
+    year: 2024,
+    rating: 8.6,
+    director: "Denis Villeneuve",
+    duration: 166,
+    description:
+      "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
+  },
+  {
+    id: 14,
+    title: "Princess Mononoke",
+    genre: "Animation",
+    year: 1997,
+    rating: 8.3,
+    director: "Hayao Miyazaki",
+    duration: 134,
+    description:
+      "On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara.",
+  },
 ];

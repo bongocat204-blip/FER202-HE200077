@@ -1,18 +1,12 @@
 import React from "react";
-import { CiStar } from "react-icons/ci";
-import { FaStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
-export default function MovieItem({
-  movie,
-  isFavorite,
-  onToggleFavorite,
-  onSelectMovie,
-}) {
+export default function MovieItem({ movie, isFavorite, onToggleFavorite }) {
   return (
     <div className="movie-item">
       <div className="movie-main-info">
         <span className="movie-title">
-          {isFavorite ? <FaStar /> : <CiStar />}
+          {isFavorite ? "⭐" : "⭐"}
           {movie.title}
         </span>
         <span className="movie-genre">{movie.genre}</span>
@@ -23,9 +17,12 @@ export default function MovieItem({
 
       <div className="movie-actions">
         <button onClick={() => onToggleFavorite(movie.id)}>
-          [{isFavorite ? "Bỏ thích" : "Yêu thích"}]
+          [{isFavorite ? "bỏ thích" : "Yêu thích"}]
         </button>
-        <button onClick={() => onSelectMovie(movie)}>[chi tiết]</button>
+        {/* Chuyển hướng tới trang /detail/:id */}
+        <Link to={`/detail/${movie.id}`} className="detail-link">
+          [chi tiết]
+        </Link>
       </div>
     </div>
   );

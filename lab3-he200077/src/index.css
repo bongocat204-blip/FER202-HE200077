@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: monospace, sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.app-container {
+  width: 680px;
+  border: 1px dashed #6c757d;
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.dark-mode .app-container {
+  background-color: #1e1e1e;
+  border-color: #555;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed #6c757d;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.theme-btn {
+  background: none;
+  border: 1px solid #aaa;
+  padding: 2px 6px;
+  cursor: pointer;
+  color: inherit;
+}
+
+/* Home */
+.home-container {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.btn-view {
+  margin-top: 15px;
+  background: none;
+  border: 1px dashed #aaa;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: inherit;
+}
+
+/* Filter Row */
+.filter-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.filter-row .search-bar {
+  flex: 1;
+}
+
+.filter-row input, .filter-row select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #aaa;
+  background: transparent;
+  color: inherit;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 5px;
+  flex: 1;
+}
+
+/* Stats & Pagination */
+.stats-pagination-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.pagination-buttons {
+  display: flex;
+  gap: 2px;
+}
+
+.pagination-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  font-family: inherit;
+  font-size: 13px;
+}
+
+.pagination-buttons button.active-page {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Table */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  text-align: left;
+}
+
+.product-table th, .product-table td {
+  border: 1px dashed #aaa;
+  padding: 6px 8px;
+}
+
+.product-table a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.product-table a:hover {
+  text-decoration: underline;
+}
+
+/* Detail page */
+.product-detail-container button {
+  background: none;
+  border: 1px dashed #aaa;
+  padding: 4px 8px;
+  cursor: pointer;
+  color: inherit;
+}

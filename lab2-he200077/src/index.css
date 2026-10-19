@@ -6,11 +6,11 @@
 }
 
 body {
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #f8f9fa;
+  color: #212529;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 30px 15px;
 }
 
 body.dark-mode {
@@ -18,11 +18,12 @@ body.dark-mode {
   color: #e0e0e0;
 }
 
+/* Khung ứng dụng */
 .app-container {
-  width: 500px;
-  border: 1px dashed #aaa;
-  padding: 15px;
-  background-color: #fff;
+  width: 520px;
+  border: 1px dashed #6c757d;
+  padding: 20px;
+  background-color: #ffffff;
 }
 
 .dark-mode .app-container {
@@ -30,34 +31,40 @@ body.dark-mode {
   border-color: #555;
 }
 
+/* Header */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px dashed #aaa;
-  padding-bottom: 8px;
+  border-bottom: 1px dashed #6c757d;
+  padding-bottom: 10px;
   margin-bottom: 15px;
 }
 
 .theme-btn {
   background: none;
-  border: none;
+  border: 1px solid #aaa;
+  padding: 2px 8px;
   cursor: pointer;
   color: inherit;
+  border-radius: 3px;
 }
 
+/* Search Bar */
 .search-bar {
   margin-bottom: 10px;
 }
 
 .search-bar input {
   width: 100%;
-  padding: 6px;
+  padding: 6px 10px;
   border: 1px solid #aaa;
   background: transparent;
   color: inherit;
+  outline: none;
 }
 
+/* Filter & Sort Bar */
 .filter-bar {
   display: flex;
   gap: 10px;
@@ -70,20 +77,23 @@ body.dark-mode {
   border: 1px solid #aaa;
   background: transparent;
   color: inherit;
+  outline: none;
 }
 
+/* Stats Bar */
 .stats-bar {
-  border-top: 1px dashed #aaa;
-  border-bottom: 1px dashed #aaa;
-  padding: 6px 0;
-  margin-bottom: 12px;
+  border-top: 1px dashed #6c757d;
+  border-bottom: 1px dashed #6c757d;
+  padding: 8px 0;
+  margin-bottom: 15px;
   font-size: 14px;
 }
 
+/* Movie List */
 .movie-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
 .movie-item {
@@ -95,12 +105,18 @@ body.dark-mode {
 
 .movie-main-info {
   display: flex;
-  gap: 8px;
+  gap: 12px;
+  align-items: center;
+}
+
+.movie-title {
+  font-weight: bold;
 }
 
 .movie-actions {
   display: flex;
-  gap: 5px;
+  gap: 8px;
+  align-items: center;
 }
 
 .movie-actions button {
@@ -108,36 +124,64 @@ body.dark-mode {
   border: none;
   cursor: pointer;
   color: inherit;
+  font-family: inherit;
+  font-size: 13px;
 }
 
-/* Modal chi tiết */
-.movie-detail-modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+.movie-actions button:hover {
+  text-decoration: underline;
+}
+
+.detail-link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.detail-link:hover {
+  text-decoration: underline;
+}
+
+/* Page detail */
+.movie-detail-container {
+  padding: 10px 0;
+  line-height: 1.8;
+}
+
+.movie-detail-container button {
+  background: none;
+  border: 1px dashed #aaa;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: inherit;
+  margin-top: 15px;
+}
+/* ================= [THÊM MỚI]: CSS CHO PHẦN PHÂN TRANG ================= */
+.pagination {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px dashed #6c757d;
+  font-size: 13px;
 }
 
-.modal-content {
-  background: #fff;
-  padding: 20px;
-  border-radius: 4px;
-  width: 320px;
-  color: #333;
-}
-
-.dark-mode .modal-content {
-  background: #2a2a2a;
-  color: #fff;
-}
-
-.modal-content button {
-  margin-top: 10px;
-  padding: 4px 12px;
+.pagination button {
+  background: none;
+  border: none;
   cursor: pointer;
+  color: inherit;
+  font-family: inherit;
+  font-size: 13px;
+}
+
+.pagination button:hover:not(:disabled) {
+  text-decoration: underline;
+}
+
+.pagination button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
