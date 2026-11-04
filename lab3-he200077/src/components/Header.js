@@ -37,7 +37,11 @@ export default function Header() {
 |----------------------------------------------------------------------|
 ||ID|   Ten san pham    |Danh muc |Gia  |Thaotac                       |
 ||1 |                   |         |     |[chi tiet]                    |
-|{chi hien thi 3 san pham 1 trang ghi ro comment cho nao dieu chinh hien thi max san pham 1 trang}\
+||2 |                   |         |     |[chi tiet]                    |
+||3 |                   |         |     |[chi tiet]                    |
+|----------------------------------------------------------------------|
+
+{chi hien thi 3 san pham 1 trang ghi ro comment cho nao dieu chinh hien thi max san pham 1 trang}\
 -------------------------------------------------------------------------------------------------------
 
 3.Product Detail Page (/products/:id)
