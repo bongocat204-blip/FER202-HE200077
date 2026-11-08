@@ -1,0 +1,559 @@
+/* Dark Tactical Gaming UI Design System for BonggoShop.skin */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg-primary: #0B0F17;
+  --bg-secondary: #121824;
+  --bg-card: #151D2A;
+  --bg-card-hover: #1A2436;
+  --bg-card-active: #202c42;
+  --neon-green: #00FF87;
+  --emerald-accent: #10B981;
+  --neon-cyan: #00E5FF;
+  --neon-gold: #FFB800;
+  --neon-red: #FF3366;
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --border-tactical: rgba(0, 255, 135, 0.25);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --glow-green: 0 0 20px rgba(0, 255, 135, 0.4);
+  --glow-green-sm: 0 0 10px rgba(0, 255, 135, 0.25);
+  --glow-cyan: 0 0 15px rgba(0, 229, 255, 0.3);
+  --font-heading: 'Orbitron', 'Rajdhani', sans-serif;
+  --font-tactical: 'Rajdhani', sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: 
+    radial-gradient(circle at 15% 20%, rgba(0, 255, 135, 0.05) 0%, transparent 40%),
+    radial-gradient(circle at 85% 60%, rgba(0, 229, 255, 0.04) 0%, transparent 45%),
+    linear-gradient(rgba(11, 15, 23, 0.96), rgba(11, 15, 23, 0.96)),
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 255, 135, 0.015) 2px, rgba(0, 255, 135, 0.015) 4px);
+  background-attachment: fixed;
+}
+
+/* Typography */
+h1, h2, h3, .font-heading {
+  font-family: var(--font-heading);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+h4, h5, h6, .font-tactical {
+  font-family: var(--font-tactical);
+  letter-spacing: 0.03em;
+}
+
+.text-neon {
+  color: var(--neon-green) !important;
+}
+
+.text-neon-cyan {
+  color: var(--neon-cyan) !important;
+}
+
+.text-neon-gold {
+  color: var(--neon-gold) !important;
+}
+
+.text-tactical-muted {
+  color: var(--text-secondary);
+}
+
+/* Glow effects */
+.glow-text {
+  text-shadow: 0 0 12px rgba(0, 255, 135, 0.6);
+}
+
+.glow-box {
+  box-shadow: var(--glow-green);
+}
+
+/* Ticker / Marquee Banner */
+.top-ticker {
+  background: linear-gradient(90deg, #090d14 0%, #0d1e18 50%, #090d14 100%);
+  border-bottom: 1px solid var(--border-tactical);
+  font-size: 0.85rem;
+  font-family: var(--font-tactical);
+  letter-spacing: 0.05em;
+  color: #c9d1d9;
+  overflow: hidden;
+  position: relative;
+  height: 38px;
+  display: flex;
+  align-items: center;
+}
+
+.ticker-wrap {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ticker-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: ticker 35s linear infinite;
+}
+
+.ticker-content:hover {
+  animation-play-state: paused;
+}
+
+@keyframes ticker {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+/* Navigation Bar */
+.navbar-tactical {
+  background: rgba(11, 15, 23, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 255, 135, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.navbar-tactical .navbar-brand {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.45rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.brand-badge {
+  background: rgba(0, 255, 135, 0.15);
+  border: 1px solid var(--neon-green);
+  color: var(--neon-green);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  box-shadow: var(--glow-green-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-link-tactical {
+  font-family: var(--font-tactical);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #cbd5e1 !important;
+  padding: 8px 16px !important;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.nav-link-tactical:hover,
+.nav-link-tactical.active {
+  color: var(--neon-green) !important;
+  background: rgba(0, 255, 135, 0.08);
+  box-shadow: 0 0 10px rgba(0, 255, 135, 0.15);
+}
+
+.nav-link-tactical.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  right: 20%;
+  height: 2px;
+  background: var(--neon-green);
+  box-shadow: var(--glow-green-sm);
+}
+
+/* Tactical Buttons */
+.btn-tactical {
+  background: linear-gradient(135deg, #00FF87 0%, #10B981 100%);
+  color: #07150e;
+  font-family: var(--font-tactical);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 9px 20px;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 255, 135, 0.3);
+}
+
+.btn-tactical:hover {
+  background: linear-gradient(135deg, #1aff9b 0%, #059669 100%);
+  color: #000;
+  box-shadow: 0 0 25px rgba(0, 255, 135, 0.6);
+  transform: translateY(-2px);
+}
+
+.btn-tactical:active {
+  transform: translateY(0);
+}
+
+.btn-tactical-outline {
+  background: transparent;
+  color: var(--neon-green);
+  border: 1px solid var(--neon-green);
+  font-family: var(--font-tactical);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 8px 18px;
+  border-radius: 4px;
+  transition: all 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.btn-tactical-outline:hover {
+  background: rgba(0, 255, 135, 0.15);
+  color: #fff;
+  border-color: #00FF87;
+  box-shadow: var(--glow-green);
+  transform: translateY(-2px);
+}
+
+.btn-tactical-cyan {
+  background: linear-gradient(135deg, #00E5FF 0%, #0088FF 100%);
+  color: #03141f;
+  font-family: var(--font-tactical);
+  font-weight: 700;
+  padding: 9px 20px;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.25s ease;
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.35);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-tactical-cyan:hover {
+  color: #000;
+  box-shadow: 0 0 25px rgba(0, 229, 255, 0.65);
+  transform: translateY(-2px);
+}
+
+.btn-tactical-danger {
+  background: rgba(255, 51, 102, 0.15);
+  border: 1px solid var(--neon-red);
+  color: var(--neon-red);
+  font-family: var(--font-tactical);
+  font-weight: 700;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.btn-tactical-danger:hover {
+  background: var(--neon-red);
+  color: #fff;
+  box-shadow: 0 0 15px rgba(255, 51, 102, 0.4);
+}
+
+.btn-tactical-secondary {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border-subtle);
+  color: #e2e8f0;
+  font-family: var(--font-tactical);
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.btn-tactical-secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Tactical Cards */
+.card-tactical {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-tactical::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, rgba(0, 255, 135, 0.4), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-tactical:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-tactical);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.7), 0 0 15px rgba(0, 255, 135, 0.15);
+}
+
+.card-tactical:hover::before {
+  opacity: 1;
+}
+
+/* Tactical Badges */
+.badge-status {
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-family: var(--font-tactical);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.badge-status.available {
+  background: rgba(0, 255, 135, 0.15);
+  border: 1px solid var(--neon-green);
+  color: var(--neon-green);
+  box-shadow: var(--glow-green-sm);
+}
+
+.badge-status.sold {
+  background: rgba(255, 51, 102, 0.15);
+  border: 1px solid var(--neon-red);
+  color: var(--neon-red);
+}
+
+.badge-rank {
+  background: rgba(255, 184, 0, 0.12);
+  border: 1px solid rgba(255, 184, 0, 0.5);
+  color: #ffca28;
+  font-family: var(--font-tactical);
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.badge-game {
+  background: rgba(0, 229, 255, 0.12);
+  border: 1px solid rgba(0, 229, 255, 0.4);
+  color: var(--neon-cyan);
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+/* Form Controls - Tactical Style */
+.form-control-tactical,
+.form-select-tactical {
+  background-color: #0E1521 !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  color: #f1f5f9 !important;
+  border-radius: 4px;
+  padding: 10px 14px;
+  font-family: var(--font-body);
+  transition: all 0.2s ease;
+}
+
+.form-control-tactical:focus,
+.form-select-tactical:focus {
+  background-color: #121A2A !important;
+  border-color: var(--neon-green) !important;
+  box-shadow: 0 0 10px rgba(0, 255, 135, 0.3) !important;
+  outline: none;
+}
+
+.form-control-tactical::placeholder {
+  color: #64748b;
+}
+
+/* Custom Dropdown for Tactical Theme */
+.dropdown-menu-tactical {
+  background: #111724;
+  border: 1px solid var(--border-tactical);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), var(--glow-green-sm);
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.dropdown-item-tactical {
+  color: #cbd5e1;
+  font-family: var(--font-tactical);
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dropdown-item-tactical:hover {
+  background: rgba(0, 255, 135, 0.12);
+  color: var(--neon-green);
+}
+
+.dropdown-divider-tactical {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin: 6px 0;
+}
+
+/* Modal Tactical */
+.modal-content-tactical {
+  background: #121824;
+  border: 1px solid var(--border-tactical);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.9), 0 0 25px rgba(0, 255, 135, 0.2);
+  border-radius: 8px;
+  color: #f8fafc;
+}
+
+.modal-header-tactical {
+  border-bottom: 1px solid rgba(0, 255, 135, 0.2);
+  padding: 16px 20px;
+}
+
+.modal-footer-tactical {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 16px 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  padding: 80px 0 60px;
+  overflow: hidden;
+}
+
+.hero-glow-blob {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background: radial-gradient(circle, rgba(0, 255, 135, 0.18) 0%, transparent 70%);
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  filter: blur(50px);
+  z-index: 0;
+}
+
+.hero-title {
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
+  font-weight: 900;
+  line-height: 1.15;
+  background: linear-gradient(180deg, #FFFFFF 0%, #E2E8F0 60%, #94A3B8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #94A3B8;
+  max-width: 650px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+/* Feature Badge Pill */
+.stat-box {
+  background: rgba(21, 29, 42, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  padding: 18px 20px;
+  transition: all 0.25s ease;
+  text-align: center;
+}
+
+.stat-box:hover {
+  border-color: var(--border-tactical);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.stat-number {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--neon-green);
+}
+
+.stat-label {
+  font-family: var(--font-tactical);
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0F17;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 255, 135, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
+
+/* Toast/Alert Tactical */
+.alert-tactical {
+  background: #151D2A;
+  border: 1px solid var(--border-tactical);
+  color: #F8FAFC;
+  border-radius: 6px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.alert-tactical-danger {
+  background: rgba(255, 51, 102, 0.1);
+  border-color: var(--neon-red);
+  color: #ff809f;
+}
+
+.alert-tactical-success {
+  background: rgba(0, 255, 135, 0.1);
+  border-color: var(--neon-green);
+  color: #a7f3d0;
+}

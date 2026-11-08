@@ -11,11 +11,9 @@ export default function LoginPage() {
     e.preventDefault();
     setErrorMsg('');
 
-    // Fetch dữ liệu từ bảng accounts của json-server
     fetch('http://localhost:9000/accounts')
       .then(res => res.json())
       .then(accounts => {
-        // Tìm tài khoản khớp email và password
         const foundUser = accounts.find(
           acc => acc.email === email && acc.password === password
         );
@@ -25,16 +23,13 @@ export default function LoginPage() {
           return;
         }
 
-        // Kiểm tra trạng thái tài khoản (Inactive)
         if (foundUser.status && foundUser.status.toLowerCase() === 'inactive') {
           setErrorMsg('Tài khoản bị khóa');
           return;
         }
 
-        // Đăng nhập thành công: Lưu session vào localStorage
         localStorage.setItem('user', JSON.stringify(foundUser));
 
-        // Chuyển hướng đến trang quản lý syllabus (/syllabus)
         navigate('/syllabus');
       })
       .catch(err => {
@@ -56,7 +51,7 @@ export default function LoginPage() {
             <input 
               type="email" 
               className="form-control" 
-              placeholder="email of student or lecture"
+              placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required

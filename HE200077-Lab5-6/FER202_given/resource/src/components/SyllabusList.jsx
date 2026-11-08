@@ -10,10 +10,8 @@ export default function SyllabusList() {
   
   const navigate = useNavigate();
 
-  // Lấy thông tin user đã đăng nhập từ localStorage
   const user = JSON.parse(localStorage.getItem('user')) || { fullName: 'Guest', role: 'User' };
 
-  // Fetch danh sách môn học từ json-server
   useEffect(() => {
     fetch('http://localhost:9000/subjects')
       .then(res => res.json())
@@ -21,20 +19,18 @@ export default function SyllabusList() {
       .catch(err => console.error(err));
   }, []);
 
-  // Xử lý Đăng xuất
   const handleLogout = () => {
     localStorage.removeItem('user');
     navigate('/login');
   };
 
-  // Xử lý khi bấm nút Search
   const handleSearch = (e) => {
     e.preventDefault();
     setAppliedKeyword(keyword);
     setAppliedSearchBy(searchBy);
   };
 
-  // Lọc dữ liệu theo từ khóa và kiểu tìm kiếm (Code hoặc Name)
+  
   const filteredSubjects = subjects.filter(subject => {
     if (!appliedKeyword.trim()) return true;
 
@@ -64,7 +60,7 @@ export default function SyllabusList() {
       <div className="container">
         <h3 className="mb-3 fw-bold">Syllabus List</h3>
 
-        {/* 2. Search & Filter Bar */}
+        
         <form onSubmit={handleSearch} className="row g-2 mb-4 align-items-center">
           <div className="col-md-3">
             <div className="input-group">
@@ -97,8 +93,17 @@ export default function SyllabusList() {
           </div>
         </form>
 
-        {/* 3. Subject Table */}
+        
         <div className="table-responsive shadow-sm rounded">
+          {/* Đặt đoạn này ngay phía trên bảng syllabus trong SyllabusList.jsx */}
+<div className="d-flex justify-content-between align-items-center mb-3">
+  <h3 className="mb-0 fw-bold">Syllabus List</h3>
+  {user.role === 'Lecturer' && (
+    <button className="btn btn-success" onClick={() => navigate('/subject/new')}>
+      + Add New Subject
+    </button>
+  )}
+</div>
           <table className="table table-hover table-striped table-bordered align-middle mb-0">
             <thead className="table-primary">
               <tr>
@@ -116,7 +121,7 @@ export default function SyllabusList() {
                 filteredSubjects.map(subject => (
                   <tr key={subject.id}>
                     <td>
-                      {/* Click vào Code sẽ nhảy sang /subject/:id */}
+                     
                       <Link 
                         to={`/subject/${subject.id}`} 
                         className="fw-bold text-decoration-none text-primary"

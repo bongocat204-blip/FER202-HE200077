@@ -1,0 +1,1910 @@
+{
+  "users": [
+    {
+      "id": "usr_01",
+      "username": "admin",
+      "email": "admin@gameacc.com",
+      "password": "adminpassword123",
+      "fullName": "System Administrator",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "usr_02",
+      "username": "buyer01",
+      "email": "user1@gmail.com",
+      "password": "userpass123",
+      "fullName": "Nguyễn Văn A",
+      "role": "User",
+      "status": "Active"
+    },
+    {
+      "id": "usr_03",
+      "username": "buyer02",
+      "email": "user2@gmail.com",
+      "password": "userpass456",
+      "fullName": "Trần Thị B",
+      "role": "User",
+      "status": "Inactive"
+    }
+  ],
+  "games": [
+    {
+      "id": "g_lol",
+      "code": "LOL",
+      "name": "League of Legends",
+      "publisher": "Riot Games",
+      "category": "MOBA",
+      "description": "Liên Minh Huyền Thoại - Game MOBA 5v5 đỉnh cao."
+    },
+    {
+      "id": "g_tft",
+      "code": "TFT",
+      "name": "Teamfight Tactics",
+      "publisher": "Riot Games",
+      "category": "Auto Battler",
+      "description": "Đấu Trường Chân Lý - Game cờ chiến thuật."
+    },
+    {
+      "id": "g_delta",
+      "code": "DELTA",
+      "name": "Delta Force",
+      "publisher": "Tencent / TiMi",
+      "category": "FPS",
+      "description": "Delta Force - Game bắn súng góc nhìn thứ nhất chiến thuật."
+    },
+    {
+      "id": "g_lq",
+      "code": "LQMB",
+      "name": "Liên Quân Mobile",
+      "publisher": "Garena",
+      "category": "MOBA Mobile",
+      "description": "Liên Quân Mobile - Game MOBA di động hấp dẫn."
+    }
+  ],
+  "lolAccounts": [
+    {
+      "id": "acc_lol_01",
+      "title": "Acc LOL Thách Đấu 542 Trang Phục Yasuo Siêu Phẩm",
+      "rank": "Thách Đấu",
+      "skinsCount": 542,
+      "championsCount": 167,
+      "price": 7370000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_01",
+        "loginPassword": "pass_lol_01"
+      },
+      "description": "Acc chính chủ rank Thách Đấu, sở hữu 542 trang phục đẹp mắt bao gồm Yasuo Siêu Phẩm. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_02",
+      "title": "Acc LOL Đại Cao Thủ 539 Trang Phục Lee Sin Tuyệt Vô Thần",
+      "rank": "Đại Cao Thủ",
+      "skinsCount": 539,
+      "championsCount": 166,
+      "price": 7290000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_02",
+        "loginPassword": "pass_lol_02"
+      },
+      "description": "Acc chính chủ rank Đại Cao Thủ, sở hữu 539 trang phục đẹp mắt bao gồm Lee Sin Tuyệt Vô Thần. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_03",
+      "title": "Acc LOL Cao Thủ 536 Trang Phục Ahri K/DA All Out",
+      "rank": "Cao Thủ",
+      "skinsCount": 536,
+      "championsCount": 165,
+      "price": 7210000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_03",
+        "loginPassword": "pass_lol_03"
+      },
+      "description": "Acc chính chủ rank Cao Thủ, sở hữu 536 trang phục đẹp mắt bao gồm Ahri K/DA All Out. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_04",
+      "title": "Acc LOL Kim Cương I 533 Trang Phục Vayne Đoạt Mệnh",
+      "rank": "Kim Cương I",
+      "skinsCount": 533,
+      "championsCount": 164,
+      "price": 6810000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_04",
+        "loginPassword": "pass_lol_04"
+      },
+      "description": "Acc chính chủ rank Kim Cương I, sở hữu 533 trang phục đẹp mắt bao gồm Vayne Đoạt Mệnh. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_05",
+      "title": "Acc LOL Kim Cương II 490 Trang Phục Zed Lôi Kiếm",
+      "rank": "Kim Cương II",
+      "skinsCount": 490,
+      "championsCount": 163,
+      "price": 6730000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_05",
+        "loginPassword": "pass_lol_05"
+      },
+      "description": "Acc chính chủ rank Kim Cương II, sở hữu 490 trang phục đẹp mắt bao gồm Zed Lôi Kiếm. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_06",
+      "title": "Acc LOL Kim Cương III 487 Trang Phục Aatrox Huyết Nguyệt",
+      "rank": "Kim Cương III",
+      "skinsCount": 487,
+      "championsCount": 162,
+      "price": 6650000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_06",
+        "loginPassword": "pass_lol_06"
+      },
+      "description": "Acc chính chủ rank Kim Cương III, sở hữu 487 trang phục đẹp mắt bao gồm Aatrox Huyết Nguyệt. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_07",
+      "title": "Acc LOL Kim Cương IV 484 Trang Phục Lux Tối Thượng",
+      "rank": "Kim Cương IV",
+      "skinsCount": 484,
+      "championsCount": 161,
+      "price": 6570000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_07",
+        "loginPassword": "pass_lol_07"
+      },
+      "description": "Acc chính chủ rank Kim Cương IV, sở hữu 484 trang phục đẹp mắt bao gồm Lux Tối Thượng. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_08",
+      "title": "Acc LOL Lục Bảo I 481 Trang Phục Riven Quán Quân",
+      "rank": "Lục Bảo I",
+      "skinsCount": 481,
+      "championsCount": 160,
+      "price": 6170000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "lol_user_08",
+        "loginPassword": "pass_lol_08"
+      },
+      "description": "Acc chính chủ rank Lục Bảo I, sở hữu 481 trang phục đẹp mắt bao gồm Riven Quán Quân. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_09",
+      "title": "Acc LOL Lục Bảo II 478 Trang Phục Thresh Hắc Tinh",
+      "rank": "Lục Bảo II",
+      "skinsCount": 478,
+      "championsCount": 159,
+      "price": 6090000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_09",
+        "loginPassword": "pass_lol_09"
+      },
+      "description": "Acc chính chủ rank Lục Bảo II, sở hữu 478 trang phục đẹp mắt bao gồm Thresh Hắc Tinh. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_10",
+      "title": "Acc LOL Lục Bảo III 435 Trang Phục Ezreal Học Viện",
+      "rank": "Lục Bảo III",
+      "skinsCount": 435,
+      "championsCount": 158,
+      "price": 6010000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_10",
+        "loginPassword": "pass_lol_10"
+      },
+      "description": "Acc chính chủ rank Lục Bảo III, sở hữu 435 trang phục đẹp mắt bao gồm Ezreal Học Viện. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_11",
+      "title": "Acc LOL Bạch Kim I 432 Trang Phục KaiSa K/DA Prestige",
+      "rank": "Bạch Kim I",
+      "skinsCount": 432,
+      "championsCount": 157,
+      "price": 5930000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_11",
+        "loginPassword": "pass_lol_11"
+      },
+      "description": "Acc chính chủ rank Bạch Kim I, sở hữu 432 trang phục đẹp mắt bao gồm KaiSa K/DA Prestige. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_12",
+      "title": "Acc LOL Bạch Kim II 429 Trang Phục Jinx Arcane",
+      "rank": "Bạch Kim II",
+      "skinsCount": 429,
+      "championsCount": 156,
+      "price": 5530000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_12",
+        "loginPassword": "pass_lol_12"
+      },
+      "description": "Acc chính chủ rank Bạch Kim II, sở hữu 429 trang phục đẹp mắt bao gồm Jinx Arcane. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_13",
+      "title": "Acc LOL Vàng I 426 Trang Phục Darius Long Thần",
+      "rank": "Vàng I",
+      "skinsCount": 426,
+      "championsCount": 155,
+      "price": 5450000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_13",
+        "loginPassword": "pass_lol_13"
+      },
+      "description": "Acc chính chủ rank Vàng I, sở hữu 426 trang phục đẹp mắt bao gồm Darius Long Thần. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_14",
+      "title": "Acc LOL Vàng II 423 Trang Phục Akali True Damage",
+      "rank": "Vàng II",
+      "skinsCount": 423,
+      "championsCount": 154,
+      "price": 5370000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_14",
+        "loginPassword": "pass_lol_14"
+      },
+      "description": "Acc chính chủ rank Vàng II, sở hữu 423 trang phục đẹp mắt bao gồm Akali True Damage. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_15",
+      "title": "Acc LOL Bạc I 380 Trang Phục Sylas Freljord",
+      "rank": "Bạc I",
+      "skinsCount": 380,
+      "championsCount": 168,
+      "price": 5290000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_15",
+        "loginPassword": "pass_lol_15"
+      },
+      "description": "Acc chính chủ rank Bạc I, sở hữu 380 trang phục đẹp mắt bao gồm Sylas Freljord. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_16",
+      "title": "Acc LOL Thách Đấu 377 Trang Phục Yasuo Siêu Phẩm",
+      "rank": "Thách Đấu",
+      "skinsCount": 377,
+      "championsCount": 167,
+      "price": 4890000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "lol_user_16",
+        "loginPassword": "pass_lol_16"
+      },
+      "description": "Acc chính chủ rank Thách Đấu, sở hữu 377 trang phục đẹp mắt bao gồm Yasuo Siêu Phẩm. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_17",
+      "title": "Acc LOL Đại Cao Thủ 374 Trang Phục Lee Sin Tuyệt Vô Thần",
+      "rank": "Đại Cao Thủ",
+      "skinsCount": 374,
+      "championsCount": 166,
+      "price": 4810000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_17",
+        "loginPassword": "pass_lol_17"
+      },
+      "description": "Acc chính chủ rank Đại Cao Thủ, sở hữu 374 trang phục đẹp mắt bao gồm Lee Sin Tuyệt Vô Thần. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_18",
+      "title": "Acc LOL Cao Thủ 371 Trang Phục Ahri K/DA All Out",
+      "rank": "Cao Thủ",
+      "skinsCount": 371,
+      "championsCount": 165,
+      "price": 4730000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_18",
+        "loginPassword": "pass_lol_18"
+      },
+      "description": "Acc chính chủ rank Cao Thủ, sở hữu 371 trang phục đẹp mắt bao gồm Ahri K/DA All Out. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_19",
+      "title": "Acc LOL Kim Cương I 368 Trang Phục Vayne Đoạt Mệnh",
+      "rank": "Kim Cương I",
+      "skinsCount": 368,
+      "championsCount": 164,
+      "price": 4650000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_19",
+        "loginPassword": "pass_lol_19"
+      },
+      "description": "Acc chính chủ rank Kim Cương I, sở hữu 368 trang phục đẹp mắt bao gồm Vayne Đoạt Mệnh. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_20",
+      "title": "Acc LOL Kim Cương II 325 Trang Phục Zed Lôi Kiếm",
+      "rank": "Kim Cương II",
+      "skinsCount": 325,
+      "championsCount": 163,
+      "price": 4250000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_20",
+        "loginPassword": "pass_lol_20"
+      },
+      "description": "Acc chính chủ rank Kim Cương II, sở hữu 325 trang phục đẹp mắt bao gồm Zed Lôi Kiếm. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_21",
+      "title": "Acc LOL Kim Cương III 322 Trang Phục Aatrox Huyết Nguyệt",
+      "rank": "Kim Cương III",
+      "skinsCount": 322,
+      "championsCount": 162,
+      "price": 4170000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_21",
+        "loginPassword": "pass_lol_21"
+      },
+      "description": "Acc chính chủ rank Kim Cương III, sở hữu 322 trang phục đẹp mắt bao gồm Aatrox Huyết Nguyệt. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_22",
+      "title": "Acc LOL Kim Cương IV 319 Trang Phục Lux Tối Thượng",
+      "rank": "Kim Cương IV",
+      "skinsCount": 319,
+      "championsCount": 161,
+      "price": 4090000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_22",
+        "loginPassword": "pass_lol_22"
+      },
+      "description": "Acc chính chủ rank Kim Cương IV, sở hữu 319 trang phục đẹp mắt bao gồm Lux Tối Thượng. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_23",
+      "title": "Acc LOL Lục Bảo I 316 Trang Phục Riven Quán Quân",
+      "rank": "Lục Bảo I",
+      "skinsCount": 316,
+      "championsCount": 160,
+      "price": 4010000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_23",
+        "loginPassword": "pass_lol_23"
+      },
+      "description": "Acc chính chủ rank Lục Bảo I, sở hữu 316 trang phục đẹp mắt bao gồm Riven Quán Quân. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_24",
+      "title": "Acc LOL Lục Bảo II 313 Trang Phục Thresh Hắc Tinh",
+      "rank": "Lục Bảo II",
+      "skinsCount": 313,
+      "championsCount": 159,
+      "price": 3610000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "lol_user_24",
+        "loginPassword": "pass_lol_24"
+      },
+      "description": "Acc chính chủ rank Lục Bảo II, sở hữu 313 trang phục đẹp mắt bao gồm Thresh Hắc Tinh. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_25",
+      "title": "Acc LOL Lục Bảo III 270 Trang Phục Ezreal Học Viện",
+      "rank": "Lục Bảo III",
+      "skinsCount": 270,
+      "championsCount": 158,
+      "price": 3530000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_25",
+        "loginPassword": "pass_lol_25"
+      },
+      "description": "Acc chính chủ rank Lục Bảo III, sở hữu 270 trang phục đẹp mắt bao gồm Ezreal Học Viện. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_26",
+      "title": "Acc LOL Bạch Kim I 267 Trang Phục KaiSa K/DA Prestige",
+      "rank": "Bạch Kim I",
+      "skinsCount": 267,
+      "championsCount": 157,
+      "price": 3450000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_26",
+        "loginPassword": "pass_lol_26"
+      },
+      "description": "Acc chính chủ rank Bạch Kim I, sở hữu 267 trang phục đẹp mắt bao gồm KaiSa K/DA Prestige. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_27",
+      "title": "Acc LOL Bạch Kim II 264 Trang Phục Jinx Arcane",
+      "rank": "Bạch Kim II",
+      "skinsCount": 264,
+      "championsCount": 156,
+      "price": 3370000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_27",
+        "loginPassword": "pass_lol_27"
+      },
+      "description": "Acc chính chủ rank Bạch Kim II, sở hữu 264 trang phục đẹp mắt bao gồm Jinx Arcane. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_28",
+      "title": "Acc LOL Vàng I 261 Trang Phục Darius Long Thần",
+      "rank": "Vàng I",
+      "skinsCount": 261,
+      "championsCount": 155,
+      "price": 2970000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_28",
+        "loginPassword": "pass_lol_28"
+      },
+      "description": "Acc chính chủ rank Vàng I, sở hữu 261 trang phục đẹp mắt bao gồm Darius Long Thần. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_29",
+      "title": "Acc LOL Vàng II 258 Trang Phục Akali True Damage",
+      "rank": "Vàng II",
+      "skinsCount": 258,
+      "championsCount": 154,
+      "price": 2890000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_29",
+        "loginPassword": "pass_lol_29"
+      },
+      "description": "Acc chính chủ rank Vàng II, sở hữu 258 trang phục đẹp mắt bao gồm Akali True Damage. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_30",
+      "title": "Acc LOL Bạc I 215 Trang Phục Sylas Freljord",
+      "rank": "Bạc I",
+      "skinsCount": 215,
+      "championsCount": 168,
+      "price": 2810000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_30",
+        "loginPassword": "pass_lol_30"
+      },
+      "description": "Acc chính chủ rank Bạc I, sở hữu 215 trang phục đẹp mắt bao gồm Sylas Freljord. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_31",
+      "title": "Acc LOL Thách Đấu 212 Trang Phục Yasuo Siêu Phẩm",
+      "rank": "Thách Đấu",
+      "skinsCount": 212,
+      "championsCount": 167,
+      "price": 2730000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_31",
+        "loginPassword": "pass_lol_31"
+      },
+      "description": "Acc chính chủ rank Thách Đấu, sở hữu 212 trang phục đẹp mắt bao gồm Yasuo Siêu Phẩm. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_32",
+      "title": "Acc LOL Đại Cao Thủ 209 Trang Phục Lee Sin Tuyệt Vô Thần",
+      "rank": "Đại Cao Thủ",
+      "skinsCount": 209,
+      "championsCount": 166,
+      "price": 2330000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "lol_user_32",
+        "loginPassword": "pass_lol_32"
+      },
+      "description": "Acc chính chủ rank Đại Cao Thủ, sở hữu 209 trang phục đẹp mắt bao gồm Lee Sin Tuyệt Vô Thần. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_33",
+      "title": "Acc LOL Cao Thủ 206 Trang Phục Ahri K/DA All Out",
+      "rank": "Cao Thủ",
+      "skinsCount": 206,
+      "championsCount": 165,
+      "price": 2250000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_33",
+        "loginPassword": "pass_lol_33"
+      },
+      "description": "Acc chính chủ rank Cao Thủ, sở hữu 206 trang phục đẹp mắt bao gồm Ahri K/DA All Out. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_34",
+      "title": "Acc LOL Kim Cương I 203 Trang Phục Vayne Đoạt Mệnh",
+      "rank": "Kim Cương I",
+      "skinsCount": 203,
+      "championsCount": 164,
+      "price": 2170000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_34",
+        "loginPassword": "pass_lol_34"
+      },
+      "description": "Acc chính chủ rank Kim Cương I, sở hữu 203 trang phục đẹp mắt bao gồm Vayne Đoạt Mệnh. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_35",
+      "title": "Acc LOL Kim Cương II 160 Trang Phục Zed Lôi Kiếm",
+      "rank": "Kim Cương II",
+      "skinsCount": 160,
+      "championsCount": 163,
+      "price": 2090000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_35",
+        "loginPassword": "pass_lol_35"
+      },
+      "description": "Acc chính chủ rank Kim Cương II, sở hữu 160 trang phục đẹp mắt bao gồm Zed Lôi Kiếm. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_36",
+      "title": "Acc LOL Kim Cương III 157 Trang Phục Aatrox Huyết Nguyệt",
+      "rank": "Kim Cương III",
+      "skinsCount": 157,
+      "championsCount": 162,
+      "price": 1690000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_36",
+        "loginPassword": "pass_lol_36"
+      },
+      "description": "Acc chính chủ rank Kim Cương III, sở hữu 157 trang phục đẹp mắt bao gồm Aatrox Huyết Nguyệt. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_37",
+      "title": "Acc LOL Kim Cương IV 154 Trang Phục Lux Tối Thượng",
+      "rank": "Kim Cương IV",
+      "skinsCount": 154,
+      "championsCount": 161,
+      "price": 1610000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_37",
+        "loginPassword": "pass_lol_37"
+      },
+      "description": "Acc chính chủ rank Kim Cương IV, sở hữu 154 trang phục đẹp mắt bao gồm Lux Tối Thượng. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_38",
+      "title": "Acc LOL Lục Bảo I 151 Trang Phục Riven Quán Quân",
+      "rank": "Lục Bảo I",
+      "skinsCount": 151,
+      "championsCount": 160,
+      "price": 1530000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_38",
+        "loginPassword": "pass_lol_38"
+      },
+      "description": "Acc chính chủ rank Lục Bảo I, sở hữu 151 trang phục đẹp mắt bao gồm Riven Quán Quân. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_39",
+      "title": "Acc LOL Lục Bảo II 148 Trang Phục Thresh Hắc Tinh",
+      "rank": "Lục Bảo II",
+      "skinsCount": 148,
+      "championsCount": 159,
+      "price": 1450000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_39",
+        "loginPassword": "pass_lol_39"
+      },
+      "description": "Acc chính chủ rank Lục Bảo II, sở hữu 148 trang phục đẹp mắt bao gồm Thresh Hắc Tinh. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_40",
+      "title": "Acc LOL Lục Bảo III 105 Trang Phục Ezreal Học Viện",
+      "rank": "Lục Bảo III",
+      "skinsCount": 105,
+      "championsCount": 158,
+      "price": 1050000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "lol_user_40",
+        "loginPassword": "pass_lol_40"
+      },
+      "description": "Acc chính chủ rank Lục Bảo III, sở hữu 105 trang phục đẹp mắt bao gồm Ezreal Học Viện. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_41",
+      "title": "Acc LOL Bạch Kim I 102 Trang Phục KaiSa K/DA Prestige",
+      "rank": "Bạch Kim I",
+      "skinsCount": 102,
+      "championsCount": 157,
+      "price": 970000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_41",
+        "loginPassword": "pass_lol_41"
+      },
+      "description": "Acc chính chủ rank Bạch Kim I, sở hữu 102 trang phục đẹp mắt bao gồm KaiSa K/DA Prestige. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_42",
+      "title": "Acc LOL Bạch Kim II 99 Trang Phục Jinx Arcane",
+      "rank": "Bạch Kim II",
+      "skinsCount": 99,
+      "championsCount": 156,
+      "price": 890000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_42",
+        "loginPassword": "pass_lol_42"
+      },
+      "description": "Acc chính chủ rank Bạch Kim II, sở hữu 99 trang phục đẹp mắt bao gồm Jinx Arcane. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_43",
+      "title": "Acc LOL Vàng I 96 Trang Phục Darius Long Thần",
+      "rank": "Vàng I",
+      "skinsCount": 96,
+      "championsCount": 155,
+      "price": 810000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_43",
+        "loginPassword": "pass_lol_43"
+      },
+      "description": "Acc chính chủ rank Vàng I, sở hữu 96 trang phục đẹp mắt bao gồm Darius Long Thần. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_44",
+      "title": "Acc LOL Vàng II 93 Trang Phục Akali True Damage",
+      "rank": "Vàng II",
+      "skinsCount": 93,
+      "championsCount": 154,
+      "price": 410000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_44",
+        "loginPassword": "pass_lol_44"
+      },
+      "description": "Acc chính chủ rank Vàng II, sở hữu 93 trang phục đẹp mắt bao gồm Akali True Damage. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    },
+    {
+      "id": "acc_lol_45",
+      "title": "Acc LOL Bạc I 50 Trang Phục Sylas Freljord",
+      "rank": "Bạc I",
+      "skinsCount": 50,
+      "championsCount": 168,
+      "price": 330000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lol_user_45",
+        "loginPassword": "pass_lol_45"
+      },
+      "description": "Acc chính chủ rank Bạc I, sở hữu 50 trang phục đẹp mắt bao gồm Sylas Freljord. Đầy đủ tướng, trắng thông tin bảo hành trọn đời."
+    }
+  ],
+  "tftAccounts": [
+    {
+      "id": "acc_tft_01",
+      "title": "Acc TFT Thách Đấu 8 Chibi Chibi Yasuo Bão Tố",
+      "rank": "Thách Đấu",
+      "chibiCount": 8,
+      "price": 4120000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_01",
+        "loginPassword": "pass_tft_01"
+      },
+      "description": "Tài khoản ĐTCL rank Thách Đấu, sở hữu 8 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Yasuo Bão Tố, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_02",
+      "title": "Acc TFT Đại Cao Thủ 8 Chibi Chibi K/DA Ahri",
+      "rank": "Đại Cao Thủ",
+      "chibiCount": 8,
+      "price": 4040000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_02",
+        "loginPassword": "pass_tft_02"
+      },
+      "description": "Tài khoản ĐTCL rank Đại Cao Thủ, sở hữu 8 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi K/DA Ahri, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_03",
+      "title": "Acc TFT Cao Thủ 8 Chibi Chibi Lee Sin Hóa Thần",
+      "rank": "Cao Thủ",
+      "chibiCount": 8,
+      "price": 3810000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_03",
+        "loginPassword": "pass_tft_03"
+      },
+      "description": "Tài khoản ĐTCL rank Cao Thủ, sở hữu 8 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Lee Sin Hóa Thần, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_04",
+      "title": "Acc TFT Kim Cương I 8 Chibi Chibi Gwen Búp Bê",
+      "rank": "Kim Cương I",
+      "chibiCount": 8,
+      "price": 3730000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_04",
+        "loginPassword": "pass_tft_04"
+      },
+      "description": "Tài khoản ĐTCL rank Kim Cương I, sở hữu 8 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Gwen Búp Bê, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_05",
+      "title": "Acc TFT Kim Cương II 7 Chibi Chibi Zed Sát Thủ",
+      "rank": "Kim Cương II",
+      "chibiCount": 7,
+      "price": 3650000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_05",
+        "loginPassword": "pass_tft_05"
+      },
+      "description": "Tài khoản ĐTCL rank Kim Cương II, sở hữu 7 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Zed Sát Thủ, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_06",
+      "title": "Acc TFT Kim Cương III 7 Chibi Chibi Aatrox Quỷ Kiếm",
+      "rank": "Kim Cương III",
+      "chibiCount": 7,
+      "price": 3420000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "tft_user_06",
+        "loginPassword": "pass_tft_06"
+      },
+      "description": "Tài khoản ĐTCL rank Kim Cương III, sở hữu 7 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Aatrox Quỷ Kiếm, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_07",
+      "title": "Acc TFT Lục Bảo I 7 Chibi Chibi Tristana Đội Trưởng",
+      "rank": "Lục Bảo I",
+      "chibiCount": 7,
+      "price": 3340000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_07",
+        "loginPassword": "pass_tft_07"
+      },
+      "description": "Tài khoản ĐTCL rank Lục Bảo I, sở hữu 7 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Tristana Đội Trưởng, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_08",
+      "title": "Acc TFT Lục Bảo II 7 Chibi Chibi Yone Song Kiếm",
+      "rank": "Lục Bảo II",
+      "chibiCount": 7,
+      "price": 3260000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_08",
+        "loginPassword": "pass_tft_08"
+      },
+      "description": "Tài khoản ĐTCL rank Lục Bảo II, sở hữu 7 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Yone Song Kiếm, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_09",
+      "title": "Acc TFT Bạch Kim I 6 Chibi Chibi Morgana Khổng Tước",
+      "rank": "Bạch Kim I",
+      "chibiCount": 6,
+      "price": 3030000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_09",
+        "loginPassword": "pass_tft_09"
+      },
+      "description": "Tài khoản ĐTCL rank Bạch Kim I, sở hữu 6 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Morgana Khổng Tước, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_10",
+      "title": "Acc TFT Vàng I 6 Chibi Chibi Akali Hàng Hiệu",
+      "rank": "Vàng I",
+      "chibiCount": 6,
+      "price": 2950000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_10",
+        "loginPassword": "pass_tft_10"
+      },
+      "description": "Tài khoản ĐTCL rank Vàng I, sở hữu 6 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Akali Hàng Hiệu, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_11",
+      "title": "Acc TFT Thách Đấu 6 Chibi Chibi Yasuo Bão Tố",
+      "rank": "Thách Đấu",
+      "chibiCount": 6,
+      "price": 2870000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_11",
+        "loginPassword": "pass_tft_11"
+      },
+      "description": "Tài khoản ĐTCL rank Thách Đấu, sở hữu 6 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Yasuo Bão Tố, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_12",
+      "title": "Acc TFT Đại Cao Thủ 6 Chibi Chibi K/DA Ahri",
+      "rank": "Đại Cao Thủ",
+      "chibiCount": 6,
+      "price": 2640000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "tft_user_12",
+        "loginPassword": "pass_tft_12"
+      },
+      "description": "Tài khoản ĐTCL rank Đại Cao Thủ, sở hữu 6 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi K/DA Ahri, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_13",
+      "title": "Acc TFT Cao Thủ 5 Chibi Chibi Lee Sin Hóa Thần",
+      "rank": "Cao Thủ",
+      "chibiCount": 5,
+      "price": 2560000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_13",
+        "loginPassword": "pass_tft_13"
+      },
+      "description": "Tài khoản ĐTCL rank Cao Thủ, sở hữu 5 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Lee Sin Hóa Thần, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_14",
+      "title": "Acc TFT Kim Cương I 5 Chibi Chibi Gwen Búp Bê",
+      "rank": "Kim Cương I",
+      "chibiCount": 5,
+      "price": 2480000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_14",
+        "loginPassword": "pass_tft_14"
+      },
+      "description": "Tài khoản ĐTCL rank Kim Cương I, sở hữu 5 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Gwen Búp Bê, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_15",
+      "title": "Acc TFT Kim Cương II 5 Chibi Chibi Zed Sát Thủ",
+      "rank": "Kim Cương II",
+      "chibiCount": 5,
+      "price": 2250000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_15",
+        "loginPassword": "pass_tft_15"
+      },
+      "description": "Tài khoản ĐTCL rank Kim Cương II, sở hữu 5 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Zed Sát Thủ, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_16",
+      "title": "Acc TFT Kim Cương III 5 Chibi Chibi Aatrox Quỷ Kiếm",
+      "rank": "Kim Cương III",
+      "chibiCount": 5,
+      "price": 2170000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_16",
+        "loginPassword": "pass_tft_16"
+      },
+      "description": "Tài khoản ĐTCL rank Kim Cương III, sở hữu 5 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Aatrox Quỷ Kiếm, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_17",
+      "title": "Acc TFT Lục Bảo I 4 Chibi Chibi Tristana Đội Trưởng",
+      "rank": "Lục Bảo I",
+      "chibiCount": 4,
+      "price": 2090000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_17",
+        "loginPassword": "pass_tft_17"
+      },
+      "description": "Tài khoản ĐTCL rank Lục Bảo I, sở hữu 4 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Tristana Đội Trưởng, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_18",
+      "title": "Acc TFT Lục Bảo II 4 Chibi Chibi Yone Song Kiếm",
+      "rank": "Lục Bảo II",
+      "chibiCount": 4,
+      "price": 1860000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "tft_user_18",
+        "loginPassword": "pass_tft_18"
+      },
+      "description": "Tài khoản ĐTCL rank Lục Bảo II, sở hữu 4 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Yone Song Kiếm, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_19",
+      "title": "Acc TFT Bạch Kim I 4 Chibi Chibi Morgana Khổng Tước",
+      "rank": "Bạch Kim I",
+      "chibiCount": 4,
+      "price": 1780000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_19",
+        "loginPassword": "pass_tft_19"
+      },
+      "description": "Tài khoản ĐTCL rank Bạch Kim I, sở hữu 4 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Morgana Khổng Tước, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_20",
+      "title": "Acc TFT Vàng I 4 Chibi Chibi Akali Hàng Hiệu",
+      "rank": "Vàng I",
+      "chibiCount": 4,
+      "price": 1700000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_20",
+        "loginPassword": "pass_tft_20"
+      },
+      "description": "Tài khoản ĐTCL rank Vàng I, sở hữu 4 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Akali Hàng Hiệu, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_21",
+      "title": "Acc TFT Thách Đấu 3 Chibi Chibi Yasuo Bão Tố",
+      "rank": "Thách Đấu",
+      "chibiCount": 3,
+      "price": 1470000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_21",
+        "loginPassword": "pass_tft_21"
+      },
+      "description": "Tài khoản ĐTCL rank Thách Đấu, sở hữu 3 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Yasuo Bão Tố, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_22",
+      "title": "Acc TFT Đại Cao Thủ 3 Chibi Chibi K/DA Ahri",
+      "rank": "Đại Cao Thủ",
+      "chibiCount": 3,
+      "price": 1390000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_22",
+        "loginPassword": "pass_tft_22"
+      },
+      "description": "Tài khoản ĐTCL rank Đại Cao Thủ, sở hữu 3 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi K/DA Ahri, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_23",
+      "title": "Acc TFT Cao Thủ 3 Chibi Chibi Lee Sin Hóa Thần",
+      "rank": "Cao Thủ",
+      "chibiCount": 3,
+      "price": 1310000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_23",
+        "loginPassword": "pass_tft_23"
+      },
+      "description": "Tài khoản ĐTCL rank Cao Thủ, sở hữu 3 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Lee Sin Hóa Thần, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_24",
+      "title": "Acc TFT Kim Cương I 3 Chibi Chibi Gwen Búp Bê",
+      "rank": "Kim Cương I",
+      "chibiCount": 3,
+      "price": 1080000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "tft_user_24",
+        "loginPassword": "pass_tft_24"
+      },
+      "description": "Tài khoản ĐTCL rank Kim Cương I, sở hữu 3 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Gwen Búp Bê, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_25",
+      "title": "Acc TFT Kim Cương II 2 Chibi Chibi Zed Sát Thủ",
+      "rank": "Kim Cương II",
+      "chibiCount": 2,
+      "price": 1000000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_25",
+        "loginPassword": "pass_tft_25"
+      },
+      "description": "Tài khoản ĐTCL rank Kim Cương II, sở hữu 2 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Zed Sát Thủ, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_26",
+      "title": "Acc TFT Kim Cương III 2 Chibi Chibi Aatrox Quỷ Kiếm",
+      "rank": "Kim Cương III",
+      "chibiCount": 2,
+      "price": 920000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_26",
+        "loginPassword": "pass_tft_26"
+      },
+      "description": "Tài khoản ĐTCL rank Kim Cương III, sở hữu 2 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Aatrox Quỷ Kiếm, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_27",
+      "title": "Acc TFT Lục Bảo I 2 Chibi Chibi Tristana Đội Trưởng",
+      "rank": "Lục Bảo I",
+      "chibiCount": 2,
+      "price": 690000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_27",
+        "loginPassword": "pass_tft_27"
+      },
+      "description": "Tài khoản ĐTCL rank Lục Bảo I, sở hữu 2 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Tristana Đội Trưởng, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_28",
+      "title": "Acc TFT Lục Bảo II 2 Chibi Chibi Yone Song Kiếm",
+      "rank": "Lục Bảo II",
+      "chibiCount": 2,
+      "price": 610000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_28",
+        "loginPassword": "pass_tft_28"
+      },
+      "description": "Tài khoản ĐTCL rank Lục Bảo II, sở hữu 2 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Yone Song Kiếm, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_29",
+      "title": "Acc TFT Bạch Kim I 1 Chibi Chibi Morgana Khổng Tước",
+      "rank": "Bạch Kim I",
+      "chibiCount": 1,
+      "price": 530000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "tft_user_29",
+        "loginPassword": "pass_tft_29"
+      },
+      "description": "Tài khoản ĐTCL rank Bạch Kim I, sở hữu 1 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Morgana Khổng Tước, sàn đấu VIP."
+    },
+    {
+      "id": "acc_tft_30",
+      "title": "Acc TFT Vàng I 1 Chibi Chibi Akali Hàng Hiệu",
+      "rank": "Vàng I",
+      "chibiCount": 1,
+      "price": 300000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "tft_user_30",
+        "loginPassword": "pass_tft_30"
+      },
+      "description": "Tài khoản ĐTCL rank Vàng I, sở hữu 1 Linh Hồn Chibi Thần Thoại với chưởng lực kết liễu độc quyền Chibi Akali Hàng Hiệu, sàn đấu VIP."
+    }
+  ],
+  "deltaAccounts": [
+    {
+      "id": "acc_delta_01",
+      "title": "Acc Delta Force General Skin M4A1 Rồng Lửa Cam",
+      "rank": "General",
+      "price": 4600000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_01",
+        "loginPassword": "pass_delta_01"
+      },
+      "description": "Tài khoản Delta Force quân hàm General, mở khóa toàn bộ phụ kiện súng và skin độc quyền M4A1 Rồng Lửa Cam, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_02",
+      "title": "Acc Delta Force Commander Skin AWM Hoàng Kim Gold",
+      "rank": "Commander",
+      "price": 4550000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_02",
+        "loginPassword": "pass_delta_02"
+      },
+      "description": "Tài khoản Delta Force quân hàm Commander, mở khóa toàn bộ phụ kiện súng và skin độc quyền AWM Hoàng Kim Gold, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_03",
+      "title": "Acc Delta Force Colonel Skin Vector Băng Tuyết",
+      "rank": "Colonel",
+      "price": 4280000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_03",
+        "loginPassword": "pass_delta_03"
+      },
+      "description": "Tài khoản Delta Force quân hàm Colonel, mở khóa toàn bộ phụ kiện súng và skin độc quyền Vector Băng Tuyết, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_04",
+      "title": "Acc Delta Force Major Skin SCAR-L Hắc Báo",
+      "rank": "Major",
+      "price": 4230000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_04",
+        "loginPassword": "pass_delta_04"
+      },
+      "description": "Tài khoản Delta Force quân hàm Major, mở khóa toàn bộ phụ kiện súng và skin độc quyền SCAR-L Hắc Báo, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_05",
+      "title": "Acc Delta Force Captain Skin AK-47 Hỏa Ngục",
+      "rank": "Captain",
+      "price": 4170000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_05",
+        "loginPassword": "pass_delta_05"
+      },
+      "description": "Tài khoản Delta Force quân hàm Captain, mở khóa toàn bộ phụ kiện súng và skin độc quyền AK-47 Hỏa Ngục, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_06",
+      "title": "Acc Delta Force Lieutenant Skin Dao Karambit Kim Cương",
+      "rank": "Lieutenant",
+      "price": 3910000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_06",
+        "loginPassword": "pass_delta_06"
+      },
+      "description": "Tài khoản Delta Force quân hàm Lieutenant, mở khóa toàn bộ phụ kiện súng và skin độc quyền Dao Karambit Kim Cương, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_07",
+      "title": "Acc Delta Force Sergeant Skin M16A4 Chiến Thuật",
+      "rank": "Sergeant",
+      "price": 3850000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "delta_user_07",
+        "loginPassword": "pass_delta_07"
+      },
+      "description": "Tài khoản Delta Force quân hàm Sergeant, mở khóa toàn bộ phụ kiện súng và skin độc quyền M16A4 Chiến Thuật, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_08",
+      "title": "Acc Delta Force General Skin Rìu Chiến Lửa VIP",
+      "rank": "General",
+      "price": 3800000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_08",
+        "loginPassword": "pass_delta_08"
+      },
+      "description": "Tài khoản Delta Force quân hàm General, mở khóa toàn bộ phụ kiện súng và skin độc quyền Rìu Chiến Lửa VIP, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_09",
+      "title": "Acc Delta Force Commander Skin Shotgun Càn Quét",
+      "rank": "Commander",
+      "price": 3530000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_09",
+        "loginPassword": "pass_delta_09"
+      },
+      "description": "Tài khoản Delta Force quân hàm Commander, mở khóa toàn bộ phụ kiện súng và skin độc quyền Shotgun Càn Quét, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_10",
+      "title": "Acc Delta Force Colonel Skin Súng Lục Deagle Gold",
+      "rank": "Colonel",
+      "price": 3480000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_10",
+        "loginPassword": "pass_delta_10"
+      },
+      "description": "Tài khoản Delta Force quân hàm Colonel, mở khóa toàn bộ phụ kiện súng và skin độc quyền Súng Lục Deagle Gold, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_11",
+      "title": "Acc Delta Force Major Skin M4A1 Rồng Lửa Cam",
+      "rank": "Major",
+      "price": 3420000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_11",
+        "loginPassword": "pass_delta_11"
+      },
+      "description": "Tài khoản Delta Force quân hàm Major, mở khóa toàn bộ phụ kiện súng và skin độc quyền M4A1 Rồng Lửa Cam, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_12",
+      "title": "Acc Delta Force Captain Skin AWM Hoàng Kim Gold",
+      "rank": "Captain",
+      "price": 3160000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_12",
+        "loginPassword": "pass_delta_12"
+      },
+      "description": "Tài khoản Delta Force quân hàm Captain, mở khóa toàn bộ phụ kiện súng và skin độc quyền AWM Hoàng Kim Gold, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_13",
+      "title": "Acc Delta Force Lieutenant Skin Vector Băng Tuyết",
+      "rank": "Lieutenant",
+      "price": 3100000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_13",
+        "loginPassword": "pass_delta_13"
+      },
+      "description": "Tài khoản Delta Force quân hàm Lieutenant, mở khóa toàn bộ phụ kiện súng và skin độc quyền Vector Băng Tuyết, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_14",
+      "title": "Acc Delta Force Sergeant Skin SCAR-L Hắc Báo",
+      "rank": "Sergeant",
+      "price": 3050000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "delta_user_14",
+        "loginPassword": "pass_delta_14"
+      },
+      "description": "Tài khoản Delta Force quân hàm Sergeant, mở khóa toàn bộ phụ kiện súng và skin độc quyền SCAR-L Hắc Báo, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_15",
+      "title": "Acc Delta Force General Skin AK-47 Hỏa Ngục",
+      "rank": "General",
+      "price": 2780000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_15",
+        "loginPassword": "pass_delta_15"
+      },
+      "description": "Tài khoản Delta Force quân hàm General, mở khóa toàn bộ phụ kiện súng và skin độc quyền AK-47 Hỏa Ngục, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_16",
+      "title": "Acc Delta Force Commander Skin Dao Karambit Kim Cương",
+      "rank": "Commander",
+      "price": 2730000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_16",
+        "loginPassword": "pass_delta_16"
+      },
+      "description": "Tài khoản Delta Force quân hàm Commander, mở khóa toàn bộ phụ kiện súng và skin độc quyền Dao Karambit Kim Cương, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_17",
+      "title": "Acc Delta Force Colonel Skin M16A4 Chiến Thuật",
+      "rank": "Colonel",
+      "price": 2670000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_17",
+        "loginPassword": "pass_delta_17"
+      },
+      "description": "Tài khoản Delta Force quân hàm Colonel, mở khóa toàn bộ phụ kiện súng và skin độc quyền M16A4 Chiến Thuật, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_18",
+      "title": "Acc Delta Force Major Skin Rìu Chiến Lửa VIP",
+      "rank": "Major",
+      "price": 2410000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_18",
+        "loginPassword": "pass_delta_18"
+      },
+      "description": "Tài khoản Delta Force quân hàm Major, mở khóa toàn bộ phụ kiện súng và skin độc quyền Rìu Chiến Lửa VIP, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_19",
+      "title": "Acc Delta Force Captain Skin Shotgun Càn Quét",
+      "rank": "Captain",
+      "price": 2350000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_19",
+        "loginPassword": "pass_delta_19"
+      },
+      "description": "Tài khoản Delta Force quân hàm Captain, mở khóa toàn bộ phụ kiện súng và skin độc quyền Shotgun Càn Quét, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_20",
+      "title": "Acc Delta Force Lieutenant Skin Súng Lục Deagle Gold",
+      "rank": "Lieutenant",
+      "price": 2300000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_20",
+        "loginPassword": "pass_delta_20"
+      },
+      "description": "Tài khoản Delta Force quân hàm Lieutenant, mở khóa toàn bộ phụ kiện súng và skin độc quyền Súng Lục Deagle Gold, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_21",
+      "title": "Acc Delta Force Sergeant Skin M4A1 Rồng Lửa Cam",
+      "rank": "Sergeant",
+      "price": 2030000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "delta_user_21",
+        "loginPassword": "pass_delta_21"
+      },
+      "description": "Tài khoản Delta Force quân hàm Sergeant, mở khóa toàn bộ phụ kiện súng và skin độc quyền M4A1 Rồng Lửa Cam, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_22",
+      "title": "Acc Delta Force General Skin AWM Hoàng Kim Gold",
+      "rank": "General",
+      "price": 1980000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_22",
+        "loginPassword": "pass_delta_22"
+      },
+      "description": "Tài khoản Delta Force quân hàm General, mở khóa toàn bộ phụ kiện súng và skin độc quyền AWM Hoàng Kim Gold, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_23",
+      "title": "Acc Delta Force Commander Skin Vector Băng Tuyết",
+      "rank": "Commander",
+      "price": 1920000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_23",
+        "loginPassword": "pass_delta_23"
+      },
+      "description": "Tài khoản Delta Force quân hàm Commander, mở khóa toàn bộ phụ kiện súng và skin độc quyền Vector Băng Tuyết, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_24",
+      "title": "Acc Delta Force Colonel Skin SCAR-L Hắc Báo",
+      "rank": "Colonel",
+      "price": 1660000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_24",
+        "loginPassword": "pass_delta_24"
+      },
+      "description": "Tài khoản Delta Force quân hàm Colonel, mở khóa toàn bộ phụ kiện súng và skin độc quyền SCAR-L Hắc Báo, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_25",
+      "title": "Acc Delta Force Major Skin AK-47 Hỏa Ngục",
+      "rank": "Major",
+      "price": 1600000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_25",
+        "loginPassword": "pass_delta_25"
+      },
+      "description": "Tài khoản Delta Force quân hàm Major, mở khóa toàn bộ phụ kiện súng và skin độc quyền AK-47 Hỏa Ngục, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_26",
+      "title": "Acc Delta Force Captain Skin Dao Karambit Kim Cương",
+      "rank": "Captain",
+      "price": 1550000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_26",
+        "loginPassword": "pass_delta_26"
+      },
+      "description": "Tài khoản Delta Force quân hàm Captain, mở khóa toàn bộ phụ kiện súng và skin độc quyền Dao Karambit Kim Cương, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_27",
+      "title": "Acc Delta Force Lieutenant Skin M16A4 Chiến Thuật",
+      "rank": "Lieutenant",
+      "price": 1280000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_27",
+        "loginPassword": "pass_delta_27"
+      },
+      "description": "Tài khoản Delta Force quân hàm Lieutenant, mở khóa toàn bộ phụ kiện súng và skin độc quyền M16A4 Chiến Thuật, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_28",
+      "title": "Acc Delta Force Sergeant Skin Rìu Chiến Lửa VIP",
+      "rank": "Sergeant",
+      "price": 1230000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "delta_user_28",
+        "loginPassword": "pass_delta_28"
+      },
+      "description": "Tài khoản Delta Force quân hàm Sergeant, mở khóa toàn bộ phụ kiện súng và skin độc quyền Rìu Chiến Lửa VIP, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_29",
+      "title": "Acc Delta Force General Skin Shotgun Càn Quét",
+      "rank": "General",
+      "price": 1170000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_29",
+        "loginPassword": "pass_delta_29"
+      },
+      "description": "Tài khoản Delta Force quân hàm General, mở khóa toàn bộ phụ kiện súng và skin độc quyền Shotgun Càn Quét, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_30",
+      "title": "Acc Delta Force Commander Skin Súng Lục Deagle Gold",
+      "rank": "Commander",
+      "price": 910000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_30",
+        "loginPassword": "pass_delta_30"
+      },
+      "description": "Tài khoản Delta Force quân hàm Commander, mở khóa toàn bộ phụ kiện súng và skin độc quyền Súng Lục Deagle Gold, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_31",
+      "title": "Acc Delta Force Colonel Skin M4A1 Rồng Lửa Cam",
+      "rank": "Colonel",
+      "price": 850000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_31",
+        "loginPassword": "pass_delta_31"
+      },
+      "description": "Tài khoản Delta Force quân hàm Colonel, mở khóa toàn bộ phụ kiện súng và skin độc quyền M4A1 Rồng Lửa Cam, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_32",
+      "title": "Acc Delta Force Major Skin AWM Hoàng Kim Gold",
+      "rank": "Major",
+      "price": 800000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_32",
+        "loginPassword": "pass_delta_32"
+      },
+      "description": "Tài khoản Delta Force quân hàm Major, mở khóa toàn bộ phụ kiện súng và skin độc quyền AWM Hoàng Kim Gold, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_33",
+      "title": "Acc Delta Force Captain Skin Vector Băng Tuyết",
+      "rank": "Captain",
+      "price": 530000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_33",
+        "loginPassword": "pass_delta_33"
+      },
+      "description": "Tài khoản Delta Force quân hàm Captain, mở khóa toàn bộ phụ kiện súng và skin độc quyền Vector Băng Tuyết, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_34",
+      "title": "Acc Delta Force Lieutenant Skin SCAR-L Hắc Báo",
+      "rank": "Lieutenant",
+      "price": 480000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "delta_user_34",
+        "loginPassword": "pass_delta_34"
+      },
+      "description": "Tài khoản Delta Force quân hàm Lieutenant, mở khóa toàn bộ phụ kiện súng và skin độc quyền SCAR-L Hắc Báo, KDA cao, thông tin chính chủ."
+    },
+    {
+      "id": "acc_delta_35",
+      "title": "Acc Delta Force Sergeant Skin AK-47 Hỏa Ngục",
+      "rank": "Sergeant",
+      "price": 420000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "delta_user_35",
+        "loginPassword": "pass_delta_35"
+      },
+      "description": "Tài khoản Delta Force quân hàm Sergeant, mở khóa toàn bộ phụ kiện súng và skin độc quyền AK-47 Hỏa Ngục, KDA cao, thông tin chính chủ."
+    }
+  ],
+  "lqAccounts": [
+    {
+      "id": "acc_lq_01",
+      "title": "Acc Liên Quân Chiến Tướng 100 Sao 413 Skin Nakroth Thứ Nguyên Vệ Thần",
+      "rank": "Chiến Tướng 100 Sao",
+      "skinsCount": 413,
+      "championsCount": 117,
+      "price": 7410000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_01",
+        "loginPassword": "pass_lq_01"
+      },
+      "description": "Acc Liên Quân rank Chiến Tướng 100 Sao, sở hữu 413 trang phục SSS Tuyệt Sắc bao gồm Nakroth Thứ Nguyên Vệ Thần, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_02",
+      "title": "Acc Liên Quân Chiến Tướng 50 Sao 406 Skin Raz Muay Thái BGM",
+      "rank": "Chiến Tướng 50 Sao",
+      "skinsCount": 406,
+      "championsCount": 116,
+      "price": 7220000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_02",
+        "loginPassword": "pass_lq_02"
+      },
+      "description": "Acc Liên Quân rank Chiến Tướng 50 Sao, sở hữu 406 trang phục SSS Tuyệt Sắc bao gồm Raz Muay Thái BGM, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_03",
+      "title": "Acc Liên Quân Chiến Tướng 25 Sao 399 Skin Florentino Giám Sát Tinh Hệ",
+      "rank": "Chiến Tướng 25 Sao",
+      "skinsCount": 399,
+      "championsCount": 115,
+      "price": 6730000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_03",
+        "loginPassword": "pass_lq_03"
+      },
+      "description": "Acc Liên Quân rank Chiến Tướng 25 Sao, sở hữu 399 trang phục SSS Tuyệt Sắc bao gồm Florentino Giám Sát Tinh Hệ, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_04",
+      "title": "Acc Liên Quân Cao Thủ 40 Sao 360 Skin Tulen Thần Sứ Tuyệt Sắc",
+      "rank": "Cao Thủ 40 Sao",
+      "skinsCount": 360,
+      "championsCount": 114,
+      "price": 6540000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_04",
+        "loginPassword": "pass_lq_04"
+      },
+      "description": "Acc Liên Quân rank Cao Thủ 40 Sao, sở hữu 360 trang phục SSS Tuyệt Sắc bao gồm Tulen Thần Sứ Tuyệt Sắc, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_05",
+      "title": "Acc Liên Quân Cao Thủ 20 Sao 353 Skin Violet Thần Khí Hà Ảnh",
+      "rank": "Cao Thủ 20 Sao",
+      "skinsCount": 353,
+      "championsCount": 113,
+      "price": 6350000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "lq_user_05",
+        "loginPassword": "pass_lq_05"
+      },
+      "description": "Acc Liên Quân rank Cao Thủ 20 Sao, sở hữu 353 trang phục SSS Tuyệt Sắc bao gồm Violet Thần Khí Hà Ảnh, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_06",
+      "title": "Acc Liên Quân Cao Thủ 10 Sao 346 Skin Lauriel Tinh Vân Vũ Trụ",
+      "rank": "Cao Thủ 10 Sao",
+      "skinsCount": 346,
+      "championsCount": 112,
+      "price": 5860000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_06",
+        "loginPassword": "pass_lq_06"
+      },
+      "description": "Acc Liên Quân rank Cao Thủ 10 Sao, sở hữu 346 trang phục SSS Tuyệt Sắc bao gồm Lauriel Tinh Vân Vũ Trụ, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_07",
+      "title": "Acc Liên Quân Tinh Anh I 339 Skin Liliana Nguyệt Lạc",
+      "rank": "Tinh Anh I",
+      "skinsCount": 339,
+      "championsCount": 111,
+      "price": 5670000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_07",
+        "loginPassword": "pass_lq_07"
+      },
+      "description": "Acc Liên Quân rank Tinh Anh I, sở hữu 339 trang phục SSS Tuyệt Sắc bao gồm Liliana Nguyệt Lạc, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_08",
+      "title": "Acc Liên Quân Tinh Anh II 300 Skin Murad Siêu Việt",
+      "rank": "Tinh Anh II",
+      "skinsCount": 300,
+      "championsCount": 110,
+      "price": 5480000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_08",
+        "loginPassword": "pass_lq_08"
+      },
+      "description": "Acc Liên Quân rank Tinh Anh II, sở hữu 300 trang phục SSS Tuyệt Sắc bao gồm Murad Siêu Việt, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_09",
+      "title": "Acc Liên Quân Tinh Anh III 293 Skin Hayate Kim Cang",
+      "rank": "Tinh Anh III",
+      "skinsCount": 293,
+      "championsCount": 109,
+      "price": 4990000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_09",
+        "loginPassword": "pass_lq_09"
+      },
+      "description": "Acc Liên Quân rank Tinh Anh III, sở hữu 293 trang phục SSS Tuyệt Sắc bao gồm Hayate Kim Cang, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_10",
+      "title": "Acc Liên Quân Bạch Kim I 286 Skin Elsu Sứ Giả Tinh Khôi",
+      "rank": "Bạch Kim I",
+      "skinsCount": 286,
+      "championsCount": 108,
+      "price": 4800000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "lq_user_10",
+        "loginPassword": "pass_lq_10"
+      },
+      "description": "Acc Liên Quân rank Bạch Kim I, sở hữu 286 trang phục SSS Tuyệt Sắc bao gồm Elsu Sứ Giả Tinh Khôi, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_11",
+      "title": "Acc Liên Quân Chiến Tướng 100 Sao 279 Skin Nakroth Thứ Nguyên Vệ Thần",
+      "rank": "Chiến Tướng 100 Sao",
+      "skinsCount": 279,
+      "championsCount": 107,
+      "price": 4610000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_11",
+        "loginPassword": "pass_lq_11"
+      },
+      "description": "Acc Liên Quân rank Chiến Tướng 100 Sao, sở hữu 279 trang phục SSS Tuyệt Sắc bao gồm Nakroth Thứ Nguyên Vệ Thần, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_12",
+      "title": "Acc Liên Quân Chiến Tướng 50 Sao 240 Skin Raz Muay Thái BGM",
+      "rank": "Chiến Tướng 50 Sao",
+      "skinsCount": 240,
+      "championsCount": 118,
+      "price": 4120000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_12",
+        "loginPassword": "pass_lq_12"
+      },
+      "description": "Acc Liên Quân rank Chiến Tướng 50 Sao, sở hữu 240 trang phục SSS Tuyệt Sắc bao gồm Raz Muay Thái BGM, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_13",
+      "title": "Acc Liên Quân Chiến Tướng 25 Sao 233 Skin Florentino Giám Sát Tinh Hệ",
+      "rank": "Chiến Tướng 25 Sao",
+      "skinsCount": 233,
+      "championsCount": 117,
+      "price": 3930000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_13",
+        "loginPassword": "pass_lq_13"
+      },
+      "description": "Acc Liên Quân rank Chiến Tướng 25 Sao, sở hữu 233 trang phục SSS Tuyệt Sắc bao gồm Florentino Giám Sát Tinh Hệ, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_14",
+      "title": "Acc Liên Quân Cao Thủ 40 Sao 226 Skin Tulen Thần Sứ Tuyệt Sắc",
+      "rank": "Cao Thủ 40 Sao",
+      "skinsCount": 226,
+      "championsCount": 116,
+      "price": 3740000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_14",
+        "loginPassword": "pass_lq_14"
+      },
+      "description": "Acc Liên Quân rank Cao Thủ 40 Sao, sở hữu 226 trang phục SSS Tuyệt Sắc bao gồm Tulen Thần Sứ Tuyệt Sắc, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_15",
+      "title": "Acc Liên Quân Cao Thủ 20 Sao 219 Skin Violet Thần Khí Hà Ảnh",
+      "rank": "Cao Thủ 20 Sao",
+      "skinsCount": 219,
+      "championsCount": 115,
+      "price": 3250000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "lq_user_15",
+        "loginPassword": "pass_lq_15"
+      },
+      "description": "Acc Liên Quân rank Cao Thủ 20 Sao, sở hữu 219 trang phục SSS Tuyệt Sắc bao gồm Violet Thần Khí Hà Ảnh, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_16",
+      "title": "Acc Liên Quân Cao Thủ 10 Sao 180 Skin Lauriel Tinh Vân Vũ Trụ",
+      "rank": "Cao Thủ 10 Sao",
+      "skinsCount": 180,
+      "championsCount": 114,
+      "price": 3060000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_16",
+        "loginPassword": "pass_lq_16"
+      },
+      "description": "Acc Liên Quân rank Cao Thủ 10 Sao, sở hữu 180 trang phục SSS Tuyệt Sắc bao gồm Lauriel Tinh Vân Vũ Trụ, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_17",
+      "title": "Acc Liên Quân Tinh Anh I 173 Skin Liliana Nguyệt Lạc",
+      "rank": "Tinh Anh I",
+      "skinsCount": 173,
+      "championsCount": 113,
+      "price": 2870000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_17",
+        "loginPassword": "pass_lq_17"
+      },
+      "description": "Acc Liên Quân rank Tinh Anh I, sở hữu 173 trang phục SSS Tuyệt Sắc bao gồm Liliana Nguyệt Lạc, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_18",
+      "title": "Acc Liên Quân Tinh Anh II 166 Skin Murad Siêu Việt",
+      "rank": "Tinh Anh II",
+      "skinsCount": 166,
+      "championsCount": 112,
+      "price": 2380000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_18",
+        "loginPassword": "pass_lq_18"
+      },
+      "description": "Acc Liên Quân rank Tinh Anh II, sở hữu 166 trang phục SSS Tuyệt Sắc bao gồm Murad Siêu Việt, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_19",
+      "title": "Acc Liên Quân Tinh Anh III 159 Skin Hayate Kim Cang",
+      "rank": "Tinh Anh III",
+      "skinsCount": 159,
+      "championsCount": 111,
+      "price": 2190000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_19",
+        "loginPassword": "pass_lq_19"
+      },
+      "description": "Acc Liên Quân rank Tinh Anh III, sở hữu 159 trang phục SSS Tuyệt Sắc bao gồm Hayate Kim Cang, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_20",
+      "title": "Acc Liên Quân Bạch Kim I 120 Skin Elsu Sứ Giả Tinh Khôi",
+      "rank": "Bạch Kim I",
+      "skinsCount": 120,
+      "championsCount": 110,
+      "price": 2000000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "lq_user_20",
+        "loginPassword": "pass_lq_20"
+      },
+      "description": "Acc Liên Quân rank Bạch Kim I, sở hữu 120 trang phục SSS Tuyệt Sắc bao gồm Elsu Sứ Giả Tinh Khôi, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_21",
+      "title": "Acc Liên Quân Chiến Tướng 100 Sao 113 Skin Nakroth Thứ Nguyên Vệ Thần",
+      "rank": "Chiến Tướng 100 Sao",
+      "skinsCount": 113,
+      "championsCount": 109,
+      "price": 1510000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_21",
+        "loginPassword": "pass_lq_21"
+      },
+      "description": "Acc Liên Quân rank Chiến Tướng 100 Sao, sở hữu 113 trang phục SSS Tuyệt Sắc bao gồm Nakroth Thứ Nguyên Vệ Thần, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_22",
+      "title": "Acc Liên Quân Chiến Tướng 50 Sao 106 Skin Raz Muay Thái BGM",
+      "rank": "Chiến Tướng 50 Sao",
+      "skinsCount": 106,
+      "championsCount": 108,
+      "price": 1320000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_22",
+        "loginPassword": "pass_lq_22"
+      },
+      "description": "Acc Liên Quân rank Chiến Tướng 50 Sao, sở hữu 106 trang phục SSS Tuyệt Sắc bao gồm Raz Muay Thái BGM, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_23",
+      "title": "Acc Liên Quân Chiến Tướng 25 Sao 99 Skin Florentino Giám Sát Tinh Hệ",
+      "rank": "Chiến Tướng 25 Sao",
+      "skinsCount": 99,
+      "championsCount": 107,
+      "price": 1130000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_23",
+        "loginPassword": "pass_lq_23"
+      },
+      "description": "Acc Liên Quân rank Chiến Tướng 25 Sao, sở hữu 99 trang phục SSS Tuyệt Sắc bao gồm Florentino Giám Sát Tinh Hệ, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_24",
+      "title": "Acc Liên Quân Cao Thủ 40 Sao 60 Skin Tulen Thần Sứ Tuyệt Sắc",
+      "rank": "Cao Thủ 40 Sao",
+      "skinsCount": 60,
+      "championsCount": 118,
+      "price": 640000,
+      "status": "Available",
+      "accountDetails": {
+        "loginUsername": "lq_user_24",
+        "loginPassword": "pass_lq_24"
+      },
+      "description": "Acc Liên Quân rank Cao Thủ 40 Sao, sở hữu 60 trang phục SSS Tuyệt Sắc bao gồm Tulen Thần Sứ Tuyệt Sắc, full bảng ngọc 90, trắng thông tin."
+    },
+    {
+      "id": "acc_lq_25",
+      "title": "Acc Liên Quân Cao Thủ 20 Sao 53 Skin Violet Thần Khí Hà Ảnh",
+      "rank": "Cao Thủ 20 Sao",
+      "skinsCount": 53,
+      "championsCount": 117,
+      "price": 450000,
+      "status": "Sold",
+      "accountDetails": {
+        "loginUsername": "lq_user_25",
+        "loginPassword": "pass_lq_25"
+      },
+      "description": "Acc Liên Quân rank Cao Thủ 20 Sao, sở hữu 53 trang phục SSS Tuyệt Sắc bao gồm Violet Thần Khí Hà Ảnh, full bảng ngọc 90, trắng thông tin."
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_01",
+      "userId": "usr_02",
+      "username": "buyer01",
+      "accountId": "acc_lol_01",
+      "gameCode": "LOL",
+      "accountTitle": "Acc LOL Master 300 Trang Phục",
+      "price": 2500000,
+      "status": "Pending",
+      "accountDetails": {
+        "loginUsername": "lol_user_01",
+        "loginPassword": "pass_lol_01"
+      },
+      "createdAt": "2026-11-07"
+    },
+    {
+      "id": "tx_02",
+      "userId": "usr_02",
+      "username": "buyer01",
+      "accountId": "acc_tft_02",
+      "gameCode": "TFT",
+      "accountTitle": "Acc TFT Cao Thủ Chibi Yasuo Long Kiếm",
+      "price": 1100000,
+      "status": "Approved",
+      "accountDetails": {
+        "loginUsername": "tft_user_02",
+        "loginPassword": "pass_tft_02"
+      },
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": "tx_03",
+      "userId": "usr_02",
+      "username": "buyer01",
+      "accountId": "acc_delta_03",
+      "gameCode": "DELTA",
+      "accountTitle": "Acc Delta Force Major Skin Súng Băng Tuyết",
+      "price": 850000,
+      "status": "Pending",
+      "accountDetails": {
+        "loginUsername": "delta_user_03",
+        "loginPassword": "pass_delta_03"
+      },
+      "createdAt": "2026-11-08"
+    }
+  ]
+}
